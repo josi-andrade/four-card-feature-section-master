@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap");
+
+body {
+  font-family: Popins, sans-serif;
+}
+
+.title {
+  font-weight: 200 !important;
+}
+.subtitle {
+  font-weight: 600;
+}
+.card_items {
+  width: 100%;
+  padding: 25px;
+  border-top: 0.3rem solid;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.card_items:hover {
+  transform: scale(1.02);
+}
+.card_text {
+  color: #a3a5ae;
+}
+
+.card_icon {
+  float: right;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.supervisor {
+  border-color: #45d3d3;
+}
+
+.builder {
+  border-color: #ea5353;
+}
+
+.karma {
+  border-color: #fcaf4a;
+}
+
+.calculator {
+  border-color: #549ef2;
+}
+
+.attribution {
+  font-size: 14px;
+}
+
+a {
+  color: #aac5ff !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #1e3464 !important;
+}
